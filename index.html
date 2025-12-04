@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教材理解度テスト自動生成AI | AI自動化ラボ</title>
+    <style>
+        /* ページ全体を占めるように設定 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* 親ページ側のスクロールバーを非表示にする */
+            /* 背景色は、Streamlitアプリの背景色に合わせるとシームレスです */
+            background-color: #f0f2f6; 
+        }
+        /* iframeを画面いっぱいに広げ、ボーダーを消す */
+        #streamlit-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://quiz-generator-ai-mcjzhonbfyi7ugleywbz4n.streamlit.app/" 
+        id="streamlit-frame"
+        allowfullscreen
+    >
+        お使いのブラウザではiframeが表示できません。
+    </iframe>
+
+</body>
+</html>
